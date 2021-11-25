@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #434752;
+  background-color: #1a1919;
   font-family: "Nunito", sans-serif;
   color: #e71d36;
 }
@@ -9,7 +9,7 @@ header {
   padding: 5px 40px;
   display: flex;
   justify-content: space-between;
-  background-color: #131313;
+  background-color: #0a0908;
 }
 
 header a {
@@ -36,7 +36,7 @@ header nav a:hover {
 
 #page-logo a {
   color: #e71d36;
-  text-shadow: 2px 2px 2px #ffbc0a;
+  text-shadow: 2px 2px 1px #ffbc0a;
   font-weight: 800;
   font-size: 40px;
   text-transform: uppercase;
