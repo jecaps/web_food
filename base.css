@@ -6,13 +6,15 @@ body {
 }
 
 header {
-  padding: 5px 40px;
+  height: 80px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-color: #0a0908;
+  padding: 0 20px;
 }
 
-header a {
+a {
   text-decoration: none;
 }
 
