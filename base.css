@@ -2,7 +2,6 @@ body {
   margin: 0;
   background-color: #1a1919;
   font-family: "Nunito", sans-serif;
-  color: #e71d36;
 }
 
 header {
@@ -42,4 +41,51 @@ header nav a:hover {
   font-weight: 800;
   font-size: 40px;
   text-transform: uppercase;
+}
+
+main h1 {
+  text-align: center;
+  color: #e71d36;
+  font-size: 48px;
+}
+
+#latest-products {
+  width: 80%;
+  margin: 50px auto;
+}
+
+#latest-products ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.food-item {
+  background-color: #fefadc;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.food-item img {
+  height: 240px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.food-item-content {
+  padding: 16px;
+  text-align: center;
+}
+
+.btn {
+  background-color: #ffbc0a;
+  color: #fff;
+  border-radius: 4px;
+  padding: 8px 24px;
+}
+
+.btn:hover {
+  background-color: #e71d36;
 }
