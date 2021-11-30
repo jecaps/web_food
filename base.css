@@ -123,6 +123,18 @@ main h1 {
 }
 
 @media (max-width: 36rem) {
+  #page-logo a {
+    font-size: 2rem;
+  }
+
+  header nav {
+    display: none;
+  }
+
+  header {
+    height: 4rem;
+  }
+
   main h1 {
     font-size: 1.5rem;
   }
