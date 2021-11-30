@@ -98,7 +98,11 @@ main h1 {
   background-color: #e71d36;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 64rem) {
+  main h1 {
+    font-size: 2.5rem;
+  }
+
   #latest-products ul {
     grid-template-columns: 1fr 1fr;
   }
@@ -107,19 +111,19 @@ main h1 {
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 42rem) {
+  main h1 {
+    font-size: 2rem;
+  }
+
   #latest-products ul {
     display: flex;
     flex-direction: column;
   }
-
-  main h1 {
-    font-size: 2.5rem;
-  }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 36rem) {
   main h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
