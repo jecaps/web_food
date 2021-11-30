@@ -34,7 +34,6 @@ header nav a {
 }
 
 header nav a:hover {
-  background-color: #ffbc0a;
   color: #e71d36;
 }
 
@@ -137,5 +136,13 @@ main h1 {
 
   main h1 {
     font-size: 1.5rem;
+  }
+
+  #latest-products li img {
+    height: 13.5rem;
+  }
+
+  #latest-products li {
+    height: 20rem;
   }
 }
