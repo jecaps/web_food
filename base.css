@@ -37,27 +37,39 @@ header nav a:hover {
   color: #e71d36;
 }
 
+#side-drawer {
+  width: 100%;
+  height: 25%;
+  background-color: #0a0908;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#side-drawer ul {
+  margin: 0;
+  padding: 3rem 1rem;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#side-drawer li {
+  margin: 1rem 0;
+}
+
+#side-drawer a {
+  color: #ffbc0a;
+  font-size: 1.5rem;
+}
+
 #page-logo a {
   color: #e71d36;
   text-shadow: 2px 2px 1px #ffbc0a;
   font-weight: 800;
   font-size: 2.5rem;
   text-transform: uppercase;
-}
-
-.menu-btn {
-  width: 2.5rem;
-  height: 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
-.menu-btn span {
-  background-color: #ffbc0a;
-  border-radius: 20px;
-  width: 100%;
-  height: 3px;
 }
 
 main h1 {
@@ -139,6 +151,21 @@ main h1 {
 @media (max-width: 36rem) {
   #page-logo a {
     font-size: 2rem;
+  }
+
+  .menu-btn {
+    width: 2.5rem;
+    height: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .menu-btn span {
+    background-color: #ffbc0a;
+    border-radius: 20px;
+    width: 100%;
+    height: 3px;
   }
 
   header nav {
