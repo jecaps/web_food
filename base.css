@@ -37,23 +37,51 @@ header nav a:hover {
   color: #e71d36;
 }
 
+.menu-btn {
+  border: 2px solid #ffbe0a2c;
+  border-radius: 4px;
+  padding: 0.05rem 0.35rem;
+  width: 2.25rem;
+  height: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  display: none;
+}
+
+.menu-btn span {
+  background-color: #ffbc0a;
+  border-radius: 20px;
+  width: 100%;
+  height: 2px;
+}
+
 #side-drawer {
   width: 100%;
-  height: 25%;
+  height: 30%;
   background-color: #0a0908;
   position: fixed;
   top: 0;
-  left: 0;
+  right: 0;
   display: none;
+  border-radius: 0.5rem;
 }
 
 #side-drawer:target {
   display: block;
 }
 
+#side-drawer header {
+  height: 4rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 5%;
+}
+
 #side-drawer ul {
   margin: 0;
-  padding: 3rem 1rem;
+  padding: 0 1rem 1rem 1rem;
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -61,12 +89,12 @@ header nav a:hover {
 }
 
 #side-drawer li {
-  margin: 1rem 0;
+  margin: 0.5rem 0;
 }
 
 #side-drawer a {
   color: #ffbc0a;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 #side-drawer a:hover {
@@ -119,7 +147,7 @@ main h1 {
 }
 
 .food-item-content h2 {
-  margin: 0 0 10px 0;
+  margin: 0 0 0.625rem 0;
 }
 
 .btn {
@@ -162,30 +190,16 @@ main h1 {
     font-size: 2rem;
   }
 
-  .menu-btn {
-    border: 2px solid #ffbe0a2c;
-    border-radius: 4px;
-    padding: 0.05rem 0.35rem;
-    width: 2.25rem;
-    height: 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-  }
-
-  .menu-btn span {
-    background-color: #ffbc0a;
-    border-radius: 20px;
-    width: 100%;
-    height: 2px;
-  }
-
   header nav {
     display: none;
   }
 
   header {
     height: 4rem;
+  }
+
+  .menu-btn {
+    display: flex;
   }
 
   main h1 {
